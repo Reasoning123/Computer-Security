@@ -1,0 +1,17 @@
+Alexander Cardenuto <acarden1@binghamton.edu>
+
+use make to create the two executables. 
+then to use server use:
+	./server ./cert.pem ./key.pem port 
+
+it will ask for a PEM pass. The Pem Pass is:
+			acarden1
+then to use client use:
+	./client hostname port
+
+it will ask for a number right after connecting and then give it a number. The server will then take that number and write the number +1 which the client will take. 
+
+after the cloent closes the connection the server will close the connection.
+To end the client program enter zero for the number 
+
+

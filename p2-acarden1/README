@@ -1,0 +1,5 @@
+Alexander Cardenuto
+Tested on the g7 computers
+to compile use gcc fscrypt.c -lcrypto and to execute ./a.out
+
+My alogrithm takes 64 bits of the string and encrypts it. Then continues in a loop until the string is all encrypted.  Te same is for decryption. 

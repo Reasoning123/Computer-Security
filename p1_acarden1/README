@@ -1,0 +1,7 @@
+Alexander Cardenuto <acarden1@binghamton.edu>
+Code was tested on bingsuns
+
+
+To execute the program use ./rc6 <input file> <output file>
+
+The algorithm is taken from the pseudo code given in the reading. Given the user key I make a key with length of (number of words in text) / key length. With rotation using the last 5 bits from the shift numbers. In the encrypption Using bit multiplcation and addition from 2 registers made shift numbers and shifted the otehr two registers. Then swap the registers and repreated r number of times. 
